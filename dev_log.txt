@@ -1,0 +1,55 @@
+I used Django for backend
+I used CRA for frontend
+
+pip install... (while venv is active)
+...django
+...djangorestframework
+...channels
+...channels_redis
+
+configured the settings.py to contain ASGI_APPLICATION
+
+project name is: rxnt
+
+inside backend folder, and inside the project folder, there's a folder for the app: rxnt_api
+
+went to frontend dir and installed axios
+
+For my django models (CRUD will be used, ofc),
+
+these will be my core models:
+
+Posting
+-user
+-content
+-timestamp
+
+Messaging
+-sender
+-receiver
+-content
+-timestamp
+
+User
+-username
+-password
+
+I tried to run makemigrations but encountered an error with corsheaders
+
+fix:
+attempt 1: pip install django-cors-headers
+result: successful
+
+ran migrate
+
+Next is registering the models in admin
+
+created superuser
+samuel
+samcv090505
+
+installed postman for testing
+
+finished the frontend sample, ready for testing
+
+need to further study abt the files and codes inside

@@ -1,0 +1,12 @@
+socialize
+rant
+express
+words
+anonymous
+connect
+
+
+Users have their own username.
+You can see other user's username.
+You can post, but text only.
+You can message other users. But they wouldn't know who sent it.
